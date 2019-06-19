@@ -1,2 +1,2 @@
 # LoanAPI
-Sample code for one service
+Sample code for one service :) 
