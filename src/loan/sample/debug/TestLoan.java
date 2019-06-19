@@ -15,8 +15,6 @@ public class TestLoan {
 			lo.setUserSetting(true);
 			lo.setApiKey("2F8TBX0VCUAMKNDMSZLLOW9OV5KP7X1WDIQIJHUQ");
 			LoanMix mix = null;
-			// int autoInterest,String loanType,int loanYears,int loanValue,float
-			// loanInterest,int loanGracepart
 			mix = new LoanMix(1, "1|0", 10, 100000, 2.1f, 1);
 			lo.addMix(mix);
 			mix = new LoanMix(1, "1|0", 10, 200000, 3.1f, 1);
