@@ -15,10 +15,12 @@ public class GetLoan {
 	private final static String service_url = "https://www.snpv.co.il/api/v2/calc/process/format/json";
 
 	private LoanOption loanOption = null;
-
+	public GetLoan(LoanOption option) {
+		// need to add checks
+		this.loanOption = option;
+	}
 	public void setLoanOption(LoanOption option) {
-
-		loanOption = option;
+		this.loanOption = option;
 	}
 
 	public String send() throws Exception {

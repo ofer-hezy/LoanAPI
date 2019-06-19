@@ -8,9 +8,9 @@ public class TestLoan {
 
 	public static void main(String[] args) {
 		try {
-			GetLoan gl = new GetLoan();
+			
+			
 			LoanOption lo = new LoanOption();
-
 			lo.setAutoInterest(true);
 			lo.setUserSetting(true);
 			lo.setApiKey("2F8TBX0VCUAMKNDMSZLLOW9OV5KP7X1WDIQIJHUQ");
@@ -19,7 +19,8 @@ public class TestLoan {
 			lo.addMix(mix);
 			mix = new LoanMix(1, "1|0", 10, 200000, 3.1f, 1);
 			lo.addMix(mix);
-			gl.setLoanOption(lo);
+			
+			GetLoan gl = new GetLoan(lo);
 			String jsonResponse = gl.send();
 			System.out.println(jsonResponse);
 
