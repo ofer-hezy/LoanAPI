@@ -1,0 +1,27 @@
+{
+	"api-key": "YOUR-API-KEY",
+	"request": {
+		"user-setting": true,
+		"auto-interest": true,
+		"mix": [
+			{
+				"loan_interest": 2.1,
+				"loan_value": 100000,
+				"loan_grace_parts": 1,
+				"loan_board": 1,
+				"loan_years": 10,
+				"loan_type": "1|0"
+			},
+			{
+				"loan_interest": 3.1,
+				"loan_value": 200000,
+				"loan_grace_parts": 1,
+				"loan_board": 1,
+				"loan_years": 10,
+				"loan_type": "1|0"
+			}
+		]
+		
+	}
+	
+}

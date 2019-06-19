@@ -1,0 +1,60 @@
+{
+	"status": true,
+	"message": "Process completed successfully",
+	"request": {
+		"user-setting": true,
+		"mix": [
+			{
+				"loan_interest": 2.1,
+				"loan_value": 100000,
+				"loan_grace_parts": 1,
+				"loan_board": 1,
+				"loan_years": 10,
+				"loan_type": "1|0"
+			},
+			{
+				"loan_interest": 3.1,
+				"loan_value": 200000,
+				"loan_grace_parts": 1,
+				"loan_board": 1,
+				"loan_years": 10,
+				"loan_type": "1|0"
+			}
+		],
+		"auto-interest": true
+	},
+	"response": {
+		"mix": [
+			{
+				"loan_interest": 2.1,
+				"loan_value": 100000,
+				"loan_grace_parts": 1,
+				"loan_board": 1,
+				"loan_years": 10,
+				"loan_type": "1|0"
+			},
+			{
+				"loan_interest": 3.1,
+				"loan_value": 200000,
+				"loan_grace_parts": 1,
+				"loan_board": 1,
+				"loan_years": 10,
+				"loan_type": "1|0"
+			}
+		],
+		"data": {
+			"loan_period": 10,
+			"loan_period_in_years": 0.8,
+			"loan_value": 300000,
+			"loan_interest_inflation_payments": "4,183",
+			"loan_margin": 2.5166666666667,
+			"loan_weighted_average": 10,
+			"loan_first_pmt": 691.66666666667,
+			"loan_max_pmt": 33726.475061367,
+			"loan_payments": 304182.83268419,
+			"loan_repayment_ratio": 1.013942775614,
+			"loan_irr": 2.8166346816177
+		}
+	},
+	"rtime": "0.0048"
+}
